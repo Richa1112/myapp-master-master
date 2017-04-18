@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/grid_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/grid_image"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:textSize="9sp"-->
+        <!--android:layout_alignParentRight="true"></TextView>TextView-->
+
+    <ImageButton
+        android:id="@+id/starButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/grid_image"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:src="@drawable/ic_starimage" >
+    </ImageButton>
+
+</RelativeLayout>
